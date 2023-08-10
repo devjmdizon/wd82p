@@ -1,0 +1,72 @@
+.exercise-1 {
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.exercise-2-h1 {
+  color: rgb(235, 14, 168);
+  font-family: sans-serif;
+}
+
+.body-exercise3 {
+  background-color: rgb(180, 180, 180);
+}
+.ph-header {
+  background-color: gainsboro;
+  font-family: sans-serif;
+  padding-left: 20px;
+  padding-right: 50px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: rgb(88, 88, 88);
+}
+
+h2 {
+  color: rgb(235, 14, 168);
+  font-family: sans-serif;
+}
+
+a {
+  margin: 10px;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+.p-exercise-2 {
+  font-family: sans-serif;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 3px;
+  padding-top: 5px;
+}
+
+.alkaline-section {
+  background-image: linear-gradient(rgb(13, 106, 194), rgb(147, 165, 245));
+}
+
+.neutral-section {
+  background-color: rgba(25, 156, 25, 0.856);
+}
+
+.Scale {
+  font-family: sans-serif;
+}
+
+.acid-section {
+  background-image: linear-gradient(rgb(238, 169, 234), rgb(247, 52, 143));
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  color: white;
+}
