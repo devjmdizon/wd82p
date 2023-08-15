@@ -63,6 +63,7 @@
   border-radius: 5px;
   padding: 5px;
   margin-top: 10px;
+  cursor: pointer;
 }
 .image-placeholder {
   background-color: gray;
@@ -142,7 +143,7 @@
 /* End of Inspiring Section */
 
 /* Start of Call to Action */
-.footer {
+.call-action-section {
   background-color: #3b82f6;
   width: 900px;
   height: 125px;
