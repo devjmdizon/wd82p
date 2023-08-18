@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px 40px;
+  grid-template-rows: 40px 40px 40px 40px 40px;
+  border: 1px solid black;
+  gap: 10px;
+  justify-content: center;
+  column-st
+}
+
+.grid-container div {
+  background-color: antiquewhite;
+  text-align:center;
+}
+
+.living-room{
+
+}
+
+.kitchen{
+
+}
+
+.bedroom{
+
+}
