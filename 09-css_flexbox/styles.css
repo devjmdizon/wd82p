@@ -17,7 +17,6 @@
   margin: 0px auto;
 
   width: 900px;
-
   display: flex;
   justify-content: space-between;
 }
@@ -34,17 +33,16 @@
 
 /* Start of Hero */
 .hero-container {
-  display: flex;
   background-color: #d6e9fe;
 }
 
 .hero {
-  margin: 0 auto;
+  margin: 0px auto;
   width: 900px;
   height: 300px;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 /* End of Hero */
@@ -52,11 +50,11 @@
 /* Start of Photo Grid */
 .photo-grid {
   width: 900px;
-  margin: 0 auto;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  margin: 0px auto;
 }
 
 .photo-grid-item {
@@ -74,22 +72,25 @@
 /* End of Photo Grid */
 
 /* Start of Footer */
+
 .footer {
+  width: 100%;
   display: flex;
 }
 
-.footer-item {
-  border: 1px solid #fff;
+.footer-two {
   background-color: #d6e9fe;
-  height: 200px;
   flex: 1;
+}
+
+.footer-item {
+  height: 100px;
 }
 
 .footer-one,
 .footer-three {
   background-color: #5995da;
-
-  width: 300px;
+  width: 150px;
+  padding-bottom: 100px;
 }
-
 /* End of Footer */
