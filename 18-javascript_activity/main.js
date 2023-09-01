@@ -6,9 +6,9 @@
 // - 'transaction2': Deduct 200 from 'balance'.
 // - 'transaction3': Deduct 1000 from 'balance'.
 
-// Your code here
-
 // Log the final 'balance' after all three transactions.
+
+// Your code here
 
 let balance = 1000;
 let transaction1;
@@ -27,9 +27,9 @@ console.log(`Exercise 1: The balance is now: ${transaction3}`);
 // Calculate the average test score of these three scores and store it in a variable called 'averageScore'.
 // Round the 'averageScore' to the nearest integer using Math.round().
 
-// Your code here
-
 // Log the 'averageScore' to the console.
+
+// Your code here
 
 let testScore1 = 90;
 let testScore2 = 95;
