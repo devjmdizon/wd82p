@@ -1,15 +1,3 @@
-// Exercise 1
-// Declare a variable called 'balance' and assign it a starting balance of 1000.
-// Create variables 'transaction1', 'transaction2', and 'transaction3' to represent three transactions.
-// Update the 'balance' variable after each transaction:
-// - 'transaction1': Add 500 to 'balance'.
-// - 'transaction2': Deduct 200 from 'balance'.
-// - 'transaction3': Deduct 1000 from 'balance'.
-
-// Log the final 'balance' after all three transactions.
-
-// Your code here
-
 let balance = 1000;
 let transaction1;
 let transaction2;
@@ -31,9 +19,9 @@ console.log(`Exercise 1: The balance is now: ${transaction3}`);
 
 // Your code here
 
-let testScore1 = 90;
-let testScore2 = 95;
-let testScore3 = 85;
+let testScore1 = 92;
+let testScore2 = 85.6;
+let testScore3 = 72.5;
 let averageScore = Math.round((testScore1 + testScore2 + testScore3) / 3);
 
 console.log(`Exercise 2: Average test score is: ${averageScore}`);
@@ -48,7 +36,7 @@ console.log(`Exercise 2: Average test score is: ${averageScore}`);
 
 // Your code here
 
-let temperature = 15;
+let temperature = 19;
 
 if (temperature > 30) {
   console.log("It's hot outside!");
