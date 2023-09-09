@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.55s ease;
+}
+
+body {
+  background: linear-gradient(
+    245.59deg,
+    #3b3a8e 0%,
+    #363587 28.53%,
+    #1e1d5e 75.52%
+  );
+  width: 100%;
+  min-height: 100vh;
+}
+
+.mainpage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+.text-logo,
+.img-logo {
+  width: 400px;
+  margin-top: 40px;
+}
+
+.imageRemove {
+  display: block;
+}
+
+.start-btn,
+.start-btn p,
+.btn {
+  background: transparent;
+  border: 2px solid rgb(21, 101, 255);
+  border-radius: 20px;
+  padding: 15px;
+  color: #ffe300;
+}
+
+.start-btn:hover,
+.btn:hover {
+  background-color: #ffac00;
+  border-radius: 20px;
+  padding: 15px;
+  color: black;
+  cursor: pointer;
+}
+
+.game-page-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.game-page-container h1,
+p,
+h2 {
+  color: #ffbd29;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+.turn-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.turn-label {
+  margin: 50px;
+}
+
+.weapon-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  margin-top: 40px;
+}
+
+.btn {
+  padding: 20px 50px;
+}
+
+.btn:hover {
+  padding: 20px 50px;
+}
+
+.game-page-container,
+.turn-section,
+.weapon-buttons {
+  display: none;
+}

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  gap: 7em;
+}
+
+.scoreboard-container {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.scoreboard-container div {
+  text-align: center;
+}
+
+.scoreboard-container h1 {
+  margin-bottom: 0.5em;
+  font-size: 20px;
+}
+
+.scoreboard-container p {
+  font-size: 32px;
+}
+
+.turns-container {
+  display: flex;
+  gap: 7em;
+}
+
+.weapons-container {
+  display: flex;
+  gap: 1em;
+}
+
+.weapons-container button {
+  padding: 1em;
+  background: none;
+  cursor: pointer;
+}
+
+.weapons-container button:hover {
+  background-color: navy;
+  color: white;
+}
