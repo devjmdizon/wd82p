@@ -50,7 +50,7 @@ function openGamescreen() {
 }
 
 function getComputerWeapon() {
-  const weapons = ["rock", "paper", "scissors"];
+  const weapons = ["rps/rock.png", "rps/paper.png", "rps/scissors.png"];
   const randomWeapon = Math.round(Math.random() * (weapons.length - 1));
 
   return weapons[randomWeapon];
