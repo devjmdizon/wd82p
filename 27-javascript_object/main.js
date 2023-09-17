@@ -48,3 +48,36 @@ console.log(obj.return);
 for (let key in user) {
   console.log(user[key]);
 }
+
+// array coach for(let x of array)
+
+// object for(let x in object)
+
+// Exercise 1
+
+const user = {
+  name: "John",
+  username: "smith",
+};
+
+user.name = "Pete";
+delete user.name;
+
+// Exercise 2
+
+function isEmpty(obj) {
+  for (let key in obj) {
+    return false;
+  }
+  return true;
+}
+
+// Exercise 3
+
+function isEmpty(obj) {}
+
+function sumAllSalaries(obj) {
+  for (let key in obj) {
+    sum += key;
+  }
+}
