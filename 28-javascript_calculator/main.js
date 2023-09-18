@@ -7,16 +7,18 @@ const backBtn = document.querySelector(".back-btn");
 const equalBtn = document.querySelector(".equals");
 const numBtns = document.querySelectorAll(".num");
 const operatorBtns = document.querySelectorAll(".operator");
+const periodBtn = document.querySelector(".period");
 
 let currentNum = "";
 let prevNum = "";
 let operation = "";
+let period = "";
 let history = [];
 
 function computeResult(prevNum, currentNum, operation) {
   let total;
-  const prev = parseInt(prevNum);
-  const curr = parseInt(currentNum);
+  const prev = parseFloat(prevNum);
+  const curr = parseFloat(currentNum);
 
   switch (operation) {
     case "+":
@@ -34,7 +36,7 @@ function computeResult(prevNum, currentNum, operation) {
     default:
       return "";
   }
-  return total;
+  return total.toString();
 }
 
 function onClickBackspace() {
@@ -44,11 +46,18 @@ function onClickBackspace() {
   );
 }
 
-backBtn.addEventListener("click", onClickBackspace);
-
 function getMiniDisplay(updateMiniDisplay) {
   miniDisplay.value += updateMiniDisplay;
 }
+
+backBtn.addEventListener("click", onClickBackspace);
+
+periodBtn.addEventListener("click", function (e) {
+  if (!currentNum.includes(".")) {
+    currentNum += ".";
+    displayInput.value = currentNum;
+  }
+});
 
 clearEntryBtn.addEventListener("click", function (e) {
   displayInput.value = 0;
@@ -59,6 +68,7 @@ clearBtn.addEventListener("click", function (e) {
   displayInput.value = 0;
   miniDisplay.value = "";
   currentNum = "";
+  console.clear();
 });
 
 equalBtn.addEventListener("click", function (e) {
