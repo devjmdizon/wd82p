@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="initial-box" class="initial-box">
+      <h3 class="title">Weather App</h3>
+      <hr />
+      <input
+        id="loc-input"
+        class="loc-input"
+        type="text"
+        placeholder="Enter city name"
+      />
+      <p id="submit-btn" class="submit-btn">Submit</p>
+    </div>
+
+    <div id="descript-box" class="descript-box">
+      <div class="descript-container">
+        <span id="back-arrow" class="back-arrow">&larr;</span>
+        <h3 id="descript-title" class="descript-title">Weather App</h3>
+      </div>
+      <hr />
+
+      <p id="weather-label" class="weather-label">Clouds</p>
+      <p id="temperature-label" class="temperature-label">Temperature</p>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

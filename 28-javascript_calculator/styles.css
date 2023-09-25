@@ -116,3 +116,14 @@ body {
 
   margin-top: 70%;
 }
+
+@media only screen and (min-width: 760px) and (max-width: 960px) {
+  .calculator {
+    display: flex;
+    justify-content: center;
+  }
+
+  .grid-container {
+    width: 400px;
+  }
+}

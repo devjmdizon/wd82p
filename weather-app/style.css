@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Croissant+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: rgb(67, 174, 252);
+  width: 100%;
+  height: 100vh;
+  font-family: "Comic Neue", cursive;
+  font-family: "Croissant One", cursive;
+}
+
+.title {
+  padding: 15px;
+}
+
+.initial-box {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: rgb(67, 174, 252);
+  border-radius: 30px;
+
+  width: 50%;
+  height: 300px;
+  margin: auto;
+}
+
+.loc-input {
+  border-radius: 10px;
+  text-align: center;
+  margin: 40px auto;
+  padding: 10px 0;
+}
+
+.submit-btn {
+  width: 100px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid rgb(67, 174, 252);
+  border-radius: 20px;
+
+  color: black;
+  font-size: 15px;
+
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: rgb(67, 174, 252);
+  color: white;
+  transform: translateX(-3px);
+}
+
+.descript-box,
+.descript-title,
+.back-arrow {
+  display: none;
+}
+
+.descript-box {
+  flex-direction: column;
+  background-color: white;
+  color: rgb(67, 174, 252);
+  border-radius: 30px;
+
+  width: 50%;
+  height: 300px;
+  margin: auto;
+}
+
+.descript-container {
+  display: flex;
+  padding: 20px;
+}
+
+.back-arrow {
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.weather-label {
+  color: black;
+  padding: 10px;
+}
